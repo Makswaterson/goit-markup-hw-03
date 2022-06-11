@@ -233,6 +233,7 @@ body {
 .team-item {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 94px;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -347,6 +348,9 @@ body {
 }
 .projects-list .projects-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
+}
+.projects-item:nth-last-child(-n + 3) {
+  padding-bottom: 94px;
 }
 .projects-title-name {
   padding: 20px 24px;
