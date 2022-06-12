@@ -181,7 +181,7 @@ body {
   display: flex;
 }
 .feature-item {
-  max-width: 270px;
+  width: 270px;
 }
 .feature-item:not(:last-child) {
   margin-right: 30px;
@@ -193,6 +193,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
+  margin-bottom: 10px;
 }
 .feature-text {
   font-size: 14px;
@@ -349,10 +350,10 @@ body {
   flex-wrap: wrap;
 }
 .projects-list .projects-item:not(:nth-child(3n + 3)) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .projects-list .projects-item:not(:nth-last-child(-n + 3)) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .projects-title-name {
   padding: 20px 24px;
