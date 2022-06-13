@@ -73,7 +73,7 @@ body {
 .color-logo {
   color: #2196f3;
 }
-.header-link .link-current {
+.header-link.link-current.link {
   color: var(--accent-color);
 }
 .header .container {
